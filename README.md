@@ -37,6 +37,7 @@ Autores del proyecto :)
 
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
 * *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
+* Yacira Campoverde
 
 También puedes mirar la lista de todos los [contribuyentes](-----------) quíenes han participado en este proyecto. 
 
