@@ -1,3 +1,13 @@
 # Sistema-Solar---Arte
 Sistema Solar en 3D
-jffbhvfhbfvbfvjcj fvjnnjvfvfvff
+
+
+
+
+
+
+
+| CARACTERISTICAS DE LOS PLANETAS|           |     |              |                |               |              |                |               |        
+| :---         |     :---:      |        :---:  |:---:         |     :---:      |        :---:  | :---:        |:---:           | ---:          |
+|  nombre      | mercurio       | martes        |  venus       | mercurio       | marte |  tierra     | pluton      | urano     |neptuno       |
+|  radio       |       |      |     |                |               |       |        |         |
