@@ -15,7 +15,7 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "un
 ## CREADORES ✒️
 
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
-* *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
+* *Manyory Cueva* - Documentación/Cohete - [ManyoryCueva](https://github.com/manyorycuevamendoza)
 * *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
 * *Cristopher Villanueva* - Letras/ Satélite -[]()
 
