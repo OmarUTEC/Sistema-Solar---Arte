@@ -22,7 +22,7 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "un
 
 ## COMENZANDO 🚀
 
-Al momento de correr el código en tu IDE ```vs code ``` favorito, podrás visualizar nuestro proyecto, momento en el que apreciarás el moviento de los planetas, los cuales giran en torno al Sol, que en este caso es la **estrella central**
+Al momento de correr el código entu IDE ```VS CODE ``` favorito, podrás visualizar nuestro proyecto, momento en el que apreciarás el moviento de los planetas, los cuales giran en torno al Sol, que en este caso es la **estrella central**
 
 
 ### ***PRE-REQUISITOS*** 📋
@@ -54,6 +54,19 @@ Al momento de correr el código en tu IDE ```vs code ``` favorito, podrás visua
    camera.orthographic = True
    EditorCamera()
    ```
+6. Resultado final del proyecto 
+
+1.Primera toma
+![toma 1](https://user-images.githubusercontent.com/91272004/146307837-c1975751-8a7b-44c5-8b90-74cbf3e95981.jpeg)
+
+2.Segunda toma 
+![segunda toma](https://user-images.githubusercontent.com/91272004/146307886-d2ae9704-1804-4186-902d-1d7e2110b93d.jpeg)
+
+3.Tercera toma
+![tercera toma](https://user-images.githubusercontent.com/91272004/146307905-838b378d-3339-444c-9c67-048c86b07c91.jpeg)
+
+4.toma final 
+![toma final](https://user-images.githubusercontent.com/91272004/146307957-78f3f7e9-3597-4ce5-b682-21c894921211.jpeg)
 
 ## EXPRESIONES DE GRATITUD 🎁
 
