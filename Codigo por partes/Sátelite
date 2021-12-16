@@ -1,1 +1,42 @@
+from ursina import *
 
+app = Ursina()
+
+#codigo de satelite ¡¡¡¡¡
+
+Entity(model='cube',scale=2.6,position=(39.2, 44.2, 0), texture='t')
+Entity(model='cube',scale=2.6,position=(38.2, 45.2, 0), texture='t')
+Entity(model='cube',scale=2.6,position=(37.2, 46.2, 0), texture='t')
+Entity(model='cube',scale=2.6,position=(36.2, 47.2, 0), texture='t')
+
+Entity(model='cube',scale=1.6,position=(40.8, 41.8, 0), texture='t')
+
+Entity(model='sphere',scale=5,position=(42.8, 39, 0), texture='t')
+
+Entity(model='cube',scale=2.6,position=(49.8, 33.2, 0), texture='t')
+Entity(model='cube',scale=2.6,position=(48.8, 34.2, 0), texture='t')
+Entity(model='cube',scale=2.6,position=(47.8, 35.2, 0), texture='t')
+Entity(model='cube',scale=2.6,position=(50.8, 32.2, 0), texture='t')
+
+Entity(model='cube',scale=1.6,position=(45.8, 37.2 , 0), texture='t')
+
+Entity(model='cube',scale=1.6,position=(44, 42, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(44, 43, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(44, 44, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(44, 45, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(44, 46, 0), texture='t')
+
+Entity(model='cube',scale=1.6,position=(45, 41, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(46, 41, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(47, 41, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(48, 41, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(49, 41, 0), texture='t')
+
+Entity(model='cube',scale=1.6,position=(39.9, 36, 0), texture='t')
+Entity(model='cube',scale=1.6,position=(38.9, 35, 0), texture='t')
+Entity(model='sphere',scale=2.6,position=(37.9, 34, 0), texture='t')
+#satelite
+
+
+EditorCamera()
+app.run()
