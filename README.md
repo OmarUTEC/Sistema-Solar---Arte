@@ -33,7 +33,7 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
    - Se instala a través de `pip` con el comando: `pip install ursina`
 2. Una vez instalada la librería, podrás empezar a crear tu proyecto, que tendrá el siguiente formato:
    ```python
-   //from ursina import *
+   from ursina import *
 
    app = Ursina()
 
