@@ -12,7 +12,7 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "un
 |  Radio  ( mm ) |  1     | 1.4 |1.8     |    2.2            | 2.6              |   3    |  3.4     | 3.8       |    4     |
 
 
-## CREADORES ✒️
+## CREADORES 🧍
 
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
 * *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
