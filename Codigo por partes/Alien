@@ -1,1 +1,709 @@
+from ursina import *
 
+app = Ursina()
+#Alien 1
+
+#nivel 1
+Entity(model='diamond', color=color.black, position=(-41,-2,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-42,-2,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-43,-2,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-44,-2,-5), texture='horizontal_gradient') 
+
+
+#nivel 2
+ 
+Entity(model='diamond', color=color.black, position=(-40,-1,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41,-1,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42,-1,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-43,-1,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44,-1,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', color=color.black, position=(-45,-1,-5), texture='horizontal_gradient')
+
+#nivel 3
+
+Entity(model='diamond', color=color.black, position=(-39, 0,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-40, 0,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-41, 0,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 0,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 0,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 0,-5), texture='horizontal_gradient') 
+Entity(model='diamond', position=(-45, 0,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.black, position=(-46, 0,-5), texture='horizontal_gradient')
+
+#nivel 4
+
+Entity(model='diamond', color=color.black, position=(-38, 1,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-39, 1,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 1,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-41, 1,-5), texture='horizontal_gradient')
+
+Entity(model='diamond',color=color.blue, position=(-42, 1,-5))
+Entity(model='diamond',color=color.blue, position=(-43, 1,-5))
+
+Entity(model='diamond', position=(-44, 1,-5), texture='horizontal_gradient') 
+Entity(model='diamond', position=(-45, 1,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 1,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.black, position=(-47, 1,-5), texture='horizontal_gradient')
+
+#nivel 5
+
+Entity(model='diamond', color=color.black, position=(-37, 2,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-38, 2,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-39, 2,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 2,-5), texture='horizontal_gradient')
+Entity(model='diamond',color=color.blue, position=(-41, 2,-5))
+
+Entity(model='diamond', position=(-42, 2,-5))
+Entity(model='diamond', position=(-43, 2,-5))
+
+Entity(model='diamond', color=color.blue, position=(-44, 2,-5)) 
+Entity(model='diamond', position=(-45, 2,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 2,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-47, 2,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.black, position=(-48, 2,-5), texture='horizontal_gradient')
+
+#nivel 6
+
+Entity(model='diamond', color=color.black, position=(-36, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-37, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-38, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-39, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-41, 3,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-42, 3,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 3,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-44, 3,-5), texture='horizontal_gradient') 
+Entity(model='diamond', position=(-45, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-47, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-48, 3,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-49, 3,-5), texture='horizontal_gradient')
+
+#nivel 7
+
+
+Entity(model='diamond', color=color.black, position=(-35, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-37, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-38, 4,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-39, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-40, 4,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 4,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 4,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', color=color.blue, position=(-45, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-46, 4,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-47, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-48, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-49, 4,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 4,-5), texture='horizontal_gradient')
+
+
+#nivel 8
+
+
+Entity(model='diamond', color=color.black, position=(-35, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-37, 5,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-38, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-39, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-40, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-41, 5,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-42, 5,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 5,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-44, 5,-5), texture='horizontal_gradient') 
+Entity(model='diamond', color=color.blue, position=(-45, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-46, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-47, 5,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-48, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-49, 5,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 5,-5), texture='horizontal_gradient')
+
+
+#nivel 9
+
+Entity(model='diamond', color=color.black, position=(-35, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 6,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-37, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-38, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-39, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-40, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-41, 6,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-42, 6,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 6,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-44, 6,-5), texture='horizontal_gradient') 
+Entity(model='diamond', color=color.blue, position=(-45, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-46, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-47, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-48, 6,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-49, 6,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 6,-5), texture='horizontal_gradient')
+
+
+#nivel 10
+
+
+Entity(model='diamond', color=color.black, position=(-35, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 7,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-37, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond',  position=(-38, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-39, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-40, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-41, 7,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-42, 7,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 7,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-44, 7,-5), texture='horizontal_gradient') 
+Entity(model='diamond', color=color.blue, position=(-45, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-46, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-47, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-48, 7,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-49, 7,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 7,-5), texture='horizontal_gradient')
+
+#nivel 11
+
+
+Entity(model='diamond', color=color.black, position=(-35, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 8,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.blue, position=(-37, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-38, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-39, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-40, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-41, 8,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-42, 8,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 8,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-44, 8,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', color=color.blue, position=(-45, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-47, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-48, 8,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-49, 8,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 8,-5), texture='horizontal_gradient')
+
+
+#nivel 12
+
+
+Entity(model='diamond', color=color.black, position=(-35, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 9,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-37, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-38, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-39, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 9,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 9,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 9,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', position=(-45, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-46, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.blue, position=(-47, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-48, 9,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-49, 9,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 9,-5), texture='horizontal_gradient')
+
+
+#nivel 13
+
+Entity(model='diamond', color=color.black, position=(-35, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-36, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-37, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-38, 10,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-39, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 10,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 10,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 10,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', position=(-45, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 10,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-47, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-48, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-49, 10,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-50, 10,-5), texture='horizontal_gradient')
+
+
+#nivel 14
+
+Entity(model='diamond', color=color.black, position=(-36, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-37, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-38, 11,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-39, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 11,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 11,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 11,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', position=(-45, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 11,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-47, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-48, 11,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-49, 11,-5), texture='horizontal_gradient')
+
+#nivel 15
+
+Entity(model='diamond', color=color.black, position=(-37, 12,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-38, 12,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-39, 12,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 12,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 12,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 12,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 12,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 12,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', position=(-45, 12,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 12,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-47, 12,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-48, 12,-5), texture='horizontal_gradient')
+
+
+#nivel 16
+
+Entity(model='diamond', color=color.black, position=(-38, 13,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-39, 13,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 13,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 13,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 13,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 13,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 13,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', position=(-45, 13,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-46, 13,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', color=color.black, position=(-47, 13,-5), texture='horizontal_gradient')
+
+#nivel 17
+
+Entity(model='diamond', color=color.black, position=(-39, 14,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-40, 14,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 14,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 14,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 14,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 14,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', position=(-45, 14,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-46, 14,-5), texture='horizontal_gradient')
+
+#nivel 18
+
+Entity(model='diamond', color=color.black, position=(-40, 15,-5), texture='horizontal_gradient')
+
+Entity(model='diamond', position=(-41, 15,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-42, 15,-5),texture='horizontal_gradient')
+Entity(model='diamond', position=(-43, 15,-5), texture='horizontal_gradient')
+Entity(model='diamond', position=(-44, 15,-5), texture='horizontal_gradient') 
+
+Entity(model='diamond', color=color.black, position=(-45, 15,-5), texture='horizontal_gradient')
+
+#nivel 19
+
+Entity(model='diamond',color=color.black, position=(-41, 16,-5), texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-42, 16,-5),texture='horizontal_gradient')
+Entity(model='diamond', color=color.black, position=(-43, 16,-5), texture='horizontal_gradient')
+Entity(model='diamond',color=color.black, position=(-44, 16,-5), texture='horizontal_gradient')
+
+
+
+
+#Alien 2
+
+#nivel 1
+Entity(model='circle', color=color.black, position=(41,-2,-5))
+Entity(model='circle', color=color.black, position=(42,-2,-5))
+Entity(model='circle', color=color.black, position=(43,-2,-5))
+Entity(model='circle', color=color.black, position=(44,-2,-5)) 
+
+
+#nivel 2
+ 
+Entity(model='circle', color=color.black, position=(40,-1,-5))
+
+Entity(model='circle',  color=color.green, position=(41,-1,-5))
+Entity(model='circle',  color=color.green, position=(42,-1,-5))
+Entity(model='circle',  color=color.green, position=(43,-1,-5))
+Entity(model='circle', color=color.green,  position=(44,-1,-5)) 
+
+Entity(model='circle', color=color.black, position=(45,-1,-5))
+
+#nivel 3
+
+Entity(model='circle', color=color.black, position=(39, 0,-5))
+
+Entity(model='circle',  color=color.green, position=(40, 0,-5))
+Entity(model='circle',  color=color.green, position=(41, 0,-5))
+Entity(model='circle',  color=color.green, position=(42, 0,-5))
+Entity(model='circle', color=color.green,  position=(43, 0,-5))
+Entity(model='circle', color=color.green,  position=(44, 0,-5)) 
+Entity(model='circle', color=color.green,  position=(45, 0,-5))
+
+Entity(model='circle', color=color.black, position=(46, 0,-5))
+
+#nivel 4
+
+Entity(model='circle', color=color.black, position=(38, 1,-5))
+
+Entity(model='circle', color=color.green,  position=(39, 1,-5))
+Entity(model='circle', color=color.green,  position=(40, 1,-5))
+Entity(model='circle', color=color.green,  position=(41, 1,-5))
+
+Entity(model='circle',color=color.black, position=(42, 1,-5))
+Entity(model='circle',color=color.black, position=(43, 1,-5))
+
+Entity(model='circle',  color=color.green, position=(44, 1,-5)) 
+Entity(model='circle',  color=color.green, position=(45, 1,-5))
+Entity(model='circle', color=color.green,  position=(46, 1,-5))
+
+Entity(model='circle', color=color.black, position=(47, 1,-5))
+
+#nivel 5
+
+Entity(model='circle', color=color.black, position=(37, 2,-5))
+
+Entity(model='circle',  color=color.green, position=(38, 2,-5))
+Entity(model='circle',  color=color.green, position=(39, 2,-5))
+Entity(model='circle', color=color.green,  position=(40, 2,-5))
+Entity(model='circle',color=color.black, position=(41, 2,-5))
+
+Entity(model='circle', color=color.green,  position=(42, 2,-5))
+Entity(model='circle', color=color.green,  position=(43, 2,-5))
+
+Entity(model='circle', color=color.black, position=(44, 2,-5)) 
+Entity(model='circle', color=color.green,  position=(45, 2,-5))
+Entity(model='circle', color=color.green,  position=(46, 2,-5))
+Entity(model='circle', color=color.green,  position=(47, 2,-5))
+
+Entity(model='circle', color=color.black, position=(48, 2,-5))
+
+#nivel 6
+
+Entity(model='circle', color=color.black, position=(36, 3,-5))
+Entity(model='circle', color=color.green,  position=(37, 3,-5))
+Entity(model='circle', color=color.green,  position=(38, 3,-5))
+Entity(model='circle', color=color.green,  position=(39, 3,-5))
+Entity(model='circle', color=color.green,  position=(40, 3,-5))
+Entity(model='circle', color=color.green,  position=(41, 3,-5))
+
+Entity(model='circle',  color=color.green, position=(42, 3,-5))
+Entity(model='circle',  color=color.green, position=(43, 3,-5))
+
+Entity(model='circle', color=color.green,  position=(44, 3,-5)) 
+Entity(model='circle', color=color.green,  position=(45, 3,-5))
+Entity(model='circle', color=color.green,  position=(46, 3,-5))
+Entity(model='circle', color=color.green,  position=(47, 3,-5))
+Entity(model='circle', color=color.green,  position=(48, 3,-5))
+Entity(model='circle', color=color.black, position=(49, 3,-5))
+
+#nivel 7
+
+
+Entity(model='circle', color=color.black, position=(35, 4,-5))
+Entity(model='circle',  color=color.green, position=(36, 4,-5))
+Entity(model='circle', color=color.green,  position=(37, 4,-5))
+Entity(model='circle', color=color.green,  position=(38, 4,-5))
+
+Entity(model='circle', color=color.black, position=(39, 4,-5))
+Entity(model='circle', color=color.black, position=(40, 4,-5))
+
+Entity(model='circle',  color=color.green, position=(41, 4,-5))
+Entity(model='circle',  color=color.green, position=(42, 4,-5))
+Entity(model='circle', color=color.green,  position=(43, 4,-5))
+Entity(model='circle', color=color.green,  position=(44, 4,-5)) 
+
+Entity(model='circle', color=color.black, position=(45, 4,-5))
+Entity(model='circle', color=color.black, position=(46, 4,-5))
+
+Entity(model='circle',  color=color.green, position=(47, 4,-5))
+Entity(model='circle',  color=color.green, position=(48, 4,-5))
+Entity(model='circle', color=color.green,  position=(49, 4,-5))
+Entity(model='circle', color=color.black, position=(50, 4,-5))
+
+
+#nivel 8
+
+
+Entity(model='circle', color=color.black, position=(35, 5,-5))
+Entity(model='circle',  color=color.green, position=(36, 5,-5))
+Entity(model='circle',  color=color.green, position=(37, 5,-5))
+
+Entity(model='circle', color=color.black, position=(38, 5,-5))
+Entity(model='circle', color=color.black, position=(39, 5,-5))
+Entity(model='circle', color=color.black, position=(40, 5,-5))
+Entity(model='circle', color=color.black, position=(41, 5,-5))
+
+Entity(model='circle', color=color.green,  position=(42, 5,-5))
+Entity(model='circle', color=color.green,  position=(43, 5,-5))
+
+Entity(model='circle', color=color.black, position=(44, 5,-5)) 
+Entity(model='circle', color=color.black, position=(45, 5,-5))
+Entity(model='circle', color=color.black, position=(46, 5,-5))
+Entity(model='circle', color=color.black, position=(47, 5,-5))
+
+Entity(model='circle', color=color.green,  position=(48, 5,-5))
+Entity(model='circle', color=color.green,  position=(49, 5,-5))
+Entity(model='circle', color=color.black, position=(50, 5,-5))
+
+
+#nivel 9
+
+Entity(model='circle', color=color.black, position=(35, 6,-5))
+Entity(model='circle', color=color.green,  position=(36, 6,-5))
+
+Entity(model='circle', color=color.black, position=(37, 6,-5))
+Entity(model='circle', color=color.black, position=(38, 6,-5))
+Entity(model='circle', color=color.black, position=(39, 6,-5))
+Entity(model='circle', color=color.black, position=(40, 6,-5))
+Entity(model='circle', color=color.black, position=(41, 6,-5))
+
+Entity(model='circle', color=color.green,  position=(42, 6,-5))
+Entity(model='circle', color=color.green,  position=(43, 6,-5))
+
+Entity(model='circle', color=color.black, position=(44, 6,-5)) 
+Entity(model='circle', color=color.black, position=(45, 6,-5))
+Entity(model='circle', color=color.black, position=(46, 6,-5))
+Entity(model='circle', color=color.black, position=(47, 6,-5))
+Entity(model='circle', color=color.black, position=(48, 6,-5))
+
+Entity(model='circle', color=color.green,  position=(49, 6,-5))
+Entity(model='circle', color=color.black, position=(50, 6,-5))
+
+
+#nivel 10
+
+
+Entity(model='circle', color=color.black, position=(35, 7,-5))
+Entity(model='circle', color=color.green,  position=(36, 7,-5))
+
+Entity(model='circle', color=color.black, position=(37, 7,-5))
+Entity(model='circle', color=color.green,   position=(38, 7,-5))
+Entity(model='circle', color=color.black, position=(39, 7,-5))
+Entity(model='circle', color=color.black, position=(40, 7,-5))
+Entity(model='circle', color=color.black, position=(41, 7,-5))
+
+Entity(model='circle', color=color.green,  position=(42, 7,-5))
+Entity(model='circle', color=color.green,  position=(43, 7,-5))
+
+Entity(model='circle', color=color.black, position=(44, 7,-5)) 
+Entity(model='circle', color=color.black, position=(45, 7,-5))
+Entity(model='circle', color=color.black, position=(46, 7,-5))
+Entity(model='circle', color=color.green,  position=(47, 7,-5))
+Entity(model='circle', color=color.black, position=(48, 7,-5))
+
+Entity(model='circle', color=color.green,  position=(49, 7,-5))
+Entity(model='circle', color=color.black, position=(50, 7,-5))
+
+#nivel 11
+
+
+Entity(model='circle', color=color.black, position=(35, 8,-5))
+Entity(model='circle', color=color.green,  position=(36, 8,-5))
+
+Entity(model='circle', color=color.black, position=(37, 8,-5))
+Entity(model='circle', color=color.green,  position=(38, 8,-5))
+Entity(model='circle', color=color.green,  position=(39, 8,-5))
+Entity(model='circle', color=color.black, position=(40, 8,-5))
+Entity(model='circle', color=color.green,  position=(41, 8,-5))
+
+Entity(model='circle', color=color.green,  position=(42, 8,-5))
+Entity(model='circle', color=color.green,  position=(43, 8,-5))
+
+Entity(model='circle', color=color.green,  position=(44, 8,-5)) 
+
+Entity(model='circle', color=color.black, position=(45, 8,-5))
+Entity(model='circle', color=color.green,  position=(46, 8,-5))
+Entity(model='circle', color=color.green,  position=(47, 8,-5))
+Entity(model='circle', color=color.black, position=(48, 8,-5))
+
+Entity(model='circle', color=color.green,  position=(49, 8,-5))
+Entity(model='circle', color=color.black, position=(50, 8,-5))
+
+
+#nivel 12
+
+
+Entity(model='circle', color=color.black, position=(35, 9,-5))
+Entity(model='circle', color=color.green,  position=(36, 9,-5))
+
+Entity(model='circle', color=color.green,  position=(37, 9,-5))
+Entity(model='circle', color=color.black, position=(38, 9,-5))
+Entity(model='circle', color=color.black, position=(39, 9,-5))
+Entity(model='circle', color=color.green,  position=(40, 9,-5))
+
+Entity(model='circle', color=color.green,  position=(41, 9,-5))
+Entity(model='circle', color=color.green,  position=(42, 9,-5))
+Entity(model='circle', color=color.green,  position=(43, 9,-5))
+Entity(model='circle', color=color.green,  position=(44, 9,-5)) 
+
+Entity(model='circle',  color=color.green, position=(45, 9,-5))
+Entity(model='circle', color=color.black, position=(46, 9,-5))
+Entity(model='circle', color=color.black, position=(47, 9,-5))
+Entity(model='circle', color=color.green,  position=(48, 9,-5))
+
+Entity(model='circle', color=color.green,  position=(49, 9,-5))
+Entity(model='circle', color=color.black, position=(50, 9,-5))
+
+
+#nivel 13
+
+Entity(model='circle', color=color.black, position=(35, 10,-5))
+Entity(model='circle', color=color.green,  position=(36, 10,-5))
+Entity(model='circle', color=color.green,  position=(37, 10,-5))
+Entity(model='circle', color=color.green,  position=(38, 10,-5))
+
+Entity(model='circle', color=color.green,  position=(39, 10,-5))
+Entity(model='circle', color=color.green,  position=(40, 10,-5))
+
+Entity(model='circle',  color=color.green, position=(41, 10,-5))
+Entity(model='circle',  color=color.green, position=(42, 10,-5))
+Entity(model='circle',  color=color.green, position=(43, 10,-5))
+Entity(model='circle',  color=color.green, position=(44, 10,-5)) 
+
+Entity(model='circle', color=color.green,  position=(45, 10,-5))
+Entity(model='circle', color=color.green,  position=(46, 10,-5))
+
+Entity(model='circle', color=color.green,  position=(47, 10,-5))
+Entity(model='circle', color=color.green,  position=(48, 10,-5))
+Entity(model='circle', color=color.green,  position=(49, 10,-5))
+Entity(model='circle', color=color.black, position=(50, 10,-5))
+
+
+#nivel 14
+
+Entity(model='circle', color=color.black, position=(36, 11,-5))
+Entity(model='circle', color=color.green,  position=(37, 11,-5))
+Entity(model='circle', color=color.green,  position=(38, 11,-5))
+
+Entity(model='circle',  color=color.green, position=(39, 11,-5))
+Entity(model='circle',  color=color.green, position=(40, 11,-5))
+
+Entity(model='circle', color=color.green,  position=(41, 11,-5))
+Entity(model='circle',  color=color.green, position=(42, 11,-5))
+Entity(model='circle',  color=color.green, position=(43, 11,-5))
+Entity(model='circle', color=color.green,  position=(44, 11,-5)) 
+
+Entity(model='circle', color=color.green,  position=(45, 11,-5))
+Entity(model='circle', color=color.green,  position=(46, 11,-5))
+
+Entity(model='circle', color=color.green,  position=(47, 11,-5))
+Entity(model='circle', color=color.green,  position=(48, 11,-5))
+Entity(model='circle', color=color.black, position=(49, 11,-5))
+
+#nivel 15
+
+Entity(model='circle', color=color.black, position=(37, 12,-5))
+Entity(model='circle', color=color.green,  position=(38, 12,-5))
+
+Entity(model='circle', color=color.green,  position=(39, 12,-5))
+Entity(model='circle', color=color.green,  position=(40, 12,-5))
+
+Entity(model='circle', color=color.green,  position=(41, 12,-5))
+Entity(model='circle', color=color.green,  position=(42, 12,-5))
+Entity(model='circle', color=color.green,  position=(43, 12,-5))
+Entity(model='circle', color=color.green,  position=(44, 12,-5)) 
+
+Entity(model='circle', color=color.green,  position=(45, 12,-5))
+Entity(model='circle', color=color.green,  position=(46, 12,-5))
+
+Entity(model='circle', color=color.green,  position=(47, 12,-5))
+Entity(model='circle', color=color.black, position=(48, 12,-5))
+
+
+#nivel 16
+
+Entity(model='circle', color=color.black, position=(38, 13,-5))
+
+Entity(model='circle', color=color.green,  position=(39, 13,-5))
+Entity(model='circle', color=color.green,  position=(40, 13,-5))
+
+Entity(model='circle', color=color.green,  position=(41, 13,-5))
+Entity(model='circle', color=color.green,  position=(42, 13,-5))
+Entity(model='circle', color=color.green,  position=(43, 13,-5))
+Entity(model='circle', color=color.green,  position=(44, 13,-5)) 
+
+Entity(model='circle', color=color.green,  position=(45, 13,-5))
+Entity(model='circle', color=color.green,  position=(46, 13,-5))
+
+Entity(model='circle', color=color.black, position=(47, 13,-5))
+
+#nivel 17
+
+Entity(model='circle', color=color.black, position=(39, 14,-5))
+Entity(model='circle', color=color.green,  position=(40, 14,-5))
+
+Entity(model='circle', color=color.green,  position=(41, 14,-5))
+Entity(model='circle', color=color.green,  position=(42, 14,-5))
+Entity(model='circle', color=color.green,  position=(43, 14,-5))
+Entity(model='circle', color=color.green,  position=(44, 14,-5)) 
+
+Entity(model='circle', color=color.green,  position=(45, 14,-5))
+Entity(model='circle', color=color.black, position=(46, 14,-5))
+
+#nivel 18
+
+Entity(model='circle', color=color.black, position=(40, 15,-5))
+
+Entity(model='circle', color=color.green, position=(41, 15,-5))
+Entity(model='circle', color=color.green,  position=(42, 15,-5))
+Entity(model='circle', color=color.green,  position=(43, 15,-5))
+Entity(model='circle', color=color.green, position=(44, 15,-5)) 
+
+Entity(model='circle', color=color.black, position=(45, 15,-5))
+
+#nivel 19
+
+Entity(model='circle',color=color.black, position=(41, 16,-5))
+Entity(model='circle', color=color.black, position=(42, 16,-5))
+Entity(model='circle', color=color.black, position=(43, 16,-5))
+Entity(model='circle',color=color.black, position=(44, 16,-5))
+
+
+EditorCamera()
+app.run()
