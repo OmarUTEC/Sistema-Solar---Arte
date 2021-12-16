@@ -17,7 +17,7 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el uni
 Al momento de correr el código entu ID favorito, podrás visualizar nuestro proyecto, momento en el que apreciarás el moviento de los planetas, los cuales giran en torno al Sol, que en este caso es la **estrella central**.
 
 
-### PRE-REQUISITOS 📋
+### ***PRE-REQUISITOS*** 📋
 
 ***Que cosas necesitas para ejecutar el proyecto de manera óptima y como instalarlas***
 1. Utilizaremos el motor gráfico de la librería Ursina Engine.
@@ -27,14 +27,11 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 
 ## CREADORES ✒️
 
-Autores del proyecto :)
-
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
 * *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
 * *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
 
 También puedes mirar la lista de todos los [contribuyentes](-----------) quíenes han participado en este proyecto. 
-
 
 
 ## Expresiones de Gratitud 🎁
