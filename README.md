@@ -36,7 +36,7 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 También puedes mirar la lista de todos los [contribuyentes](-----------) quíenes han participado en este proyecto. 
 
 
-## Expresiones de Gratitud 🎁
+## EXPRESIONES DE GRATITUD 🎁
 
 * 😁 Comenta a otros sobre este proyecto 📢😀
 * Invita un café ☕ a alguien del equipo. 
