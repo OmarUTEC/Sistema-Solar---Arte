@@ -1,6 +1,6 @@
 
 # ***SISTEMA SOLAR*** - ***UNIVERSE***
-Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el universo
+Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "universo"
 
 ![alt text](https://images7.alphacoders.com/957/thumb-1920-957439.jpg)
 
@@ -23,8 +23,21 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 1. Utilizaremos el motor gráfico de la librería Ursina Engine.
    
    - Se instala a través de `pip` con el comando: `pip install ursina`
+2. Una vez instalada la librería, podrá empezar a crear tu proyecto, que tendrá el siguiente formato:
+   ```python
+   //from ursina import *
+
+   app = Ursina()
+
+   # Código
+
+   app.run()
    
-2. Revisamos la siguiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
+   
+ 
+   ```
+   
+3. Revisamos la siguiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
 
 
 ## CREADORES ✒️
