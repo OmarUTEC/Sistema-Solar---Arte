@@ -57,7 +57,7 @@ window.color = color.black
 
 ground = Entity(model="cube",color= color.azure, z=-8,y=-1,origin=(0,2.5),scale=(200,5,200),texture="space",shader= transition_shader)
 
-#planetas
+#PLANETAS
 sun = Entity(model='sphere', scale=1.5, texture = 'solxd')
 
 mercury = Entity(model='sphere', scale=0.2, texture = 'mercurio')
@@ -371,7 +371,7 @@ Entity(model='cube', position=(7,-2,-7), texture='space')
 
 
 
-#cohete
+#COHETE
 
 Entity(model='cube',position=(-2,-3,16), texture='fuego')
 Entity(model='cube',color=color.red ,position=(-2,-4,16), texture='fuego')
@@ -789,10 +789,10 @@ Entity(model='cube',color=color.black,position=(23,16,16), texture='gris')
 Entity(model='cube',color=color.black,position=(23,17,16), texture='gris')
 
 
-# códogo de la estrella
+# ESTRELLA
 
-#estrella
-#*****trian invertid*****
+
+#TRIANGULO INVERTIDO
 #SUPERI IZQUIERDA
 #1° nivel superi iz
 Entity(model='cube',color=color.yellow, position=(-6,-0.2,0), texture='start')
@@ -835,7 +835,7 @@ Entity(model='cube',color=color.yellow, position=(-15,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-16,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-17,8.8,0), texture='start')
 
-#SUPERI DERECHA
+#SUPERIOR DERECHA
 #1° nivel sup dere
 Entity(model='cube',color=color.yellow, position=(6,-0.2,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(7,-0.2,0), texture='start')
@@ -877,7 +877,7 @@ Entity(model='cube',color=color.yellow, position=(15,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(16,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(17,8.8,0), texture='start')
 
-# CIERRE TRIANGUL INV
+# CIERRE TRIANGUL INVERTIDO
 Entity(model='cube',color=color.yellow, position=(15,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(14,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(13,8.8,0), texture='start')
@@ -911,7 +911,7 @@ Entity(model='cube',color=color.yellow, position=(-14,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-15,8.8,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-16,8.8,0), texture='start')
 
-#punta invertida iz
+#PUNTA INVERTIDA IZQUIERDA
 Entity(model='cube',color=color.yellow, position=(-6,-3,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-5,-3,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-4,-3,0), texture='horizontal_gradient')
@@ -927,7 +927,8 @@ Entity(model='cube',color=color.yellow, position=(-2,-5,0), texture='horizontal_
 Entity(model='cube',color=color.yellow, position=(-3,-6,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-2,-6,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-1,-6,0), texture='horizontal_gradient')
-#punta iz
+
+#PUNTA IZQUIERDA
 
 Entity(model='cube',color=color.yellow, position=(-2,-7,0), texture='start')
 Entity(model='cube',color=color.yellow, position=(-1,-7,0), texture='start')
