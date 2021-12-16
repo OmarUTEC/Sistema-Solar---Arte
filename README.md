@@ -23,6 +23,7 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 1. Utilizaremos el motor gráfico de la librería Ursina Engine.
    
    -Podemos adquirirlo a traves de `pip` con el comando: `pip install ursina`
+2. Revisamos la siguuiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
 
 
 ## CREADORES ✒️
