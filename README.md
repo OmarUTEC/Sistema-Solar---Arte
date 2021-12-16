@@ -1,6 +1,6 @@
 
 # ***SISTEMA SOLAR*** - ***UNIVERSE***
-Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "universo"
+Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "universo". Desde lo que a ciencia cierta sabemos hasta lo que aún no se ha logrado comprobar, queremos que te diviertas con todos los objetos que hemos codificado para ti  😊!!
 
 ![alt text](https://images7.alphacoders.com/957/thumb-1920-957439.jpg)
 
@@ -15,9 +15,9 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "un
 ## CREADORES ✒️
 
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
-* *Manyory Cueva* - Documentación/Cohete - [ManyoryCueva](https://github.com/manyorycuevamendoza)
+* *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
 * *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
-* *Cristopher Villanueva* - Letras/ Satélite -[]()
+* *Cristopher Villanueva* - Letras/ Satélite -[cvbnmmnbvc]()
 
 
 ## COMENZANDO 🚀
@@ -47,11 +47,11 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
    - Encontrarás `models` `textures` `color` etc
 4. Para dibujar una entidad
    ```python
-   //Entity(model='circle', position=(0,0,0), color=color.blue, texture='white33', rotation=(45,45,0))
+   Entity(model='circle', position=(0,0,0), color=color.blue, texture='white33', rotation=(45,45,0))
    ```
 5. Para observar los objetos en distintos ángulos
    ```python
-   //camera.orthographic = True
+   camera.orthographic = True
    EditorCamera()
    ```
 
