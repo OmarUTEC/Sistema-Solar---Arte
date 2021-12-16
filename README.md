@@ -1,5 +1,5 @@
 
-# ***Sistema Solar*** - ***UNIVERSE***
+# ***SISTEMA SOLAR*** - ***UNIVERSE***
 Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el universo
 
 ![alt text](https://images7.alphacoders.com/957/thumb-1920-957439.jpg)
@@ -32,8 +32,8 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
 * *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
 * *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
+* *Cristopher Villanueva - Letras/ Satélite 
 
-También puedes mirar la lista de todos los [contribuyentes](-----------) quíenes han participado en este proyecto. 
 
 
 ## EXPRESIONES DE GRATITUD 🎁
