@@ -1,1 +1,169 @@
+from ursina import *
 
+app = Ursina()
+
+#COMIENZA CODIGO DE LETRA
+Entity(model='cube',scale=1,position=(-55.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-54.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-53.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-52.2, 41.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-54.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-53.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-55.2, 43.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-54.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-53.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-52.2, 44.2, 0), texture='plate')
+#
+Entity(model='cube',scale=1,position=(-48.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-48.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-48.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-48.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-48.2, 44.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-47.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-49.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-49.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-47.2, 40.2, 0), texture='plate')
+#ssss
+Entity(model='cube',scale=1,position=(-44.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-43.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-42.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-41.2, 41.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-43.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-42.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-44.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-43.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-42.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-41.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-37.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-37.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-37.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-37.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-37.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-38.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-36.2, 44.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-33.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-33.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-33.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-33.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-33.2, 44.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-32.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-31.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-30.2, 44.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-32.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-31.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-30.2, 40.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-32.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-31.2, 42.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-27.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-27.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-27.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-27.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-27.2, 44.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-26.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-25.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-24.2, 43.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-23.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-23.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-23.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-23.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-23.2, 44.2, 0), texture='plate')
+
+
+Entity(model='cube',scale=1,position=(-20.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-20.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-20.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-20.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-19.2, 44.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-18.2, 44.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-17.2, 40.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-17.2, 41.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-17.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-17.2, 43.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-19.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-18.2, 42.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-51.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-50.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-49.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-48.2, 31.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-50.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-49.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-51.2, 33.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-50.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-49.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-48.2, 34.2, 0), texture='plate')
+
+
+Entity(model='cube',scale=1,position=(-45.2, 31.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-45.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-45.2, 33.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-44.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-43.2, 34.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-42.2, 31.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-42.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-42.2, 33.2, 0), texture='plate')
+
+
+Entity(model='cube',scale=1,position=(-44.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-43.2, 30.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-39.2, 31.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-39.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-39.2, 33.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-39.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-39.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-38.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-37.2, 30.2, 0), texture='plate')
+
+
+Entity(model='cube',scale=1,position=(-34.2, 31.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-34.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-34.2, 33.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-34.2, 30.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-33.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-32.2, 34.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-31.2, 31.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-31.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-31.2, 33.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-31.2, 30.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-33.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-32.2, 32.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-28.2, 31.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-28.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-28.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-28.2, 30.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-28.2, 33.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-27.2, 34.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-26.2, 34.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-25.2, 33.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-27.2, 32.2, 0), texture='plate')
+Entity(model='cube',scale=1,position=(-26.2, 32.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-26.2, 31.2, 0), texture='plate')
+
+Entity(model='cube',scale=1,position=(-25.2, 30.2, 0), texture='plate')
+#TERMNA CODIGO DE LETRA
+
+EditorCamera()
+app.run()
