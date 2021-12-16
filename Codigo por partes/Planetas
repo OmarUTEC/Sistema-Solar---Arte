@@ -1,1 +1,77 @@
+from ursina.shaders import transition_shader
+from ursina import *
+import numpy as np
 
+camera.orthographic = True
+camera.fov = 4
+
+
+def update():
+    global t
+    t = t + 0.01
+    angle = np.pi * 40 / 180
+
+    radius_1 = 1
+    mercury.x = np.cos(t) * radius_1
+    mercury.z = np.sin(t) * radius_1
+
+    radius_2 = 1.4
+    venus.x = np.cos(t + angle) * radius_2
+    venus.z = np.sin(t + angle) * radius_2
+
+    radius_3 = 1.8
+    earth.x = np.cos(t + angle * 2) * radius_3
+    earth.z = np.sin(t + angle * 2) * radius_3
+
+    radius_4 = 2.2
+    mars.x = np.cos(t + angle * 3) * radius_4
+    mars.z = np.sin(t + angle * 3) * radius_4
+
+    radius_5 = 2.6
+    jupiter.x = np.cos(t + angle * 4) * radius_5
+    jupiter.z = np.sin(t + angle * 4) * radius_5
+
+    radius_6 = 3
+    saturn.x = np.cos(t + angle * 5) * radius_6
+    saturn.z = np.sin(t + angle * 5) * radius_6
+
+    radius_7 = 3.4
+    uranus.x = np.cos(t + angle * 6) * radius_7
+    uranus.z = np.sin(t + angle * 6) * radius_7
+
+    radius_8 = 3.8
+    neptune.x = np.cos(t + angle * 7) * radius_8
+    neptune.z = np.sin(t + angle * 7) * radius_8
+
+    radius_9 = 4
+    pluto.x = np.cos(t + angle * 8) * radius_9
+    pluto.z = np.sin(t + angle * 8) * radius_9
+
+
+app = Ursina()
+
+window.color = color.black
+
+ground = Entity(model="cube", z=-8,y=-1,origin=(0,2.5),scale=(200,5,200),texture="space",shader= transition_shader)
+sun = Entity(model='sphere', scale=1.5, texture='solxd')
+
+mercury = Entity(model='sphere', scale=0.2, texture='mercurio')
+venus = Entity(model='sphere', scale=0.3, texture='venus')
+earth = Entity(model='sphere', scale=0.4, texture='tierra')
+mars = Entity(model='sphere', scale=0.3, texture='marte')
+jupiter = Entity(model='sphere', scale=0.6, texture='jupiter')
+saturn = Entity(model='sphere', scale=0.5, texture='saturno')
+uranus = Entity(model='sphere', scale=0.5, texture='urano')
+neptune = Entity(model='sphere', scale=0.5, texture='neptuno')
+pluto = Entity(model='sphere', scale=0.2, texture='pluton')
+
+t = -np.pi
+
+
+# camera.rotation_z=180
+##camera.position=(0,25,0)
+##camera.rotation_x=90
+
+
+EditorCamera()
+app.run()
