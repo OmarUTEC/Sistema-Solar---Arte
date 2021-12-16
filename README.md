@@ -23,7 +23,7 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 1. Utilizaremos el motor gráfico de la librería Ursina Engine.
    
    - Se instala a través de `pip` con el comando: `pip install ursina`
-2. Una vez instalada la librería, podrá empezar a crear tu proyecto, que tendrá el siguiente formato:
+2. Una vez instalada la librería, podrás empezar a crear tu proyecto, que tendrá el siguiente formato:
    ```python
    //from ursina import *
 
@@ -33,11 +33,15 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 
    app.run()
    
-   
- 
    ```
    
-3. Revisamos la siguiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
+3. Recuerda revisar la siguiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
+   - Encontrarás `models` `textures` `color` etc
+4. Para dibujar una entidad:
+   ``` python
+   //Entity(model='circle', position=(0,0,0), color=color.blue, texture='white33', rotation=(45,45,0))
+   ```
+
 
 
 ## CREADORES ✒️
@@ -45,7 +49,16 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 * *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
 * *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
 * *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
-* *Cristopher Villanueva - Letras/ Satélite 
+* *Cristopher Villanueva* - Letras/ Satélite -[]()
+
+
+
+
+
+
+
+
+
 
 
 
