@@ -19,10 +19,11 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 
 ### ***PRE-REQUISITOS*** 📋
 
-***Que cosas necesitas para ejecutar el proyecto de manera óptima y como instalarlas***
+***¿Qué cosas necesitas para ejecutar el proyecto de manera óptima? ¿como instalarlas?***
 1. Utilizaremos el motor gráfico de la librería Ursina Engine.
    
-   -Podemos adquirirlo a traves de `pip` con el comando: `pip install ursina`
+   - Se instala a través de `pip` con el comando: `pip install ursina`
+   
 2. Revisamos la siguuiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
 
 
