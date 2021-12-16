@@ -22,7 +22,7 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "un
 
 ## COMENZANDO 🚀
 
-Al momento de correr el código entu IDE ```VS CODE ``` favorito, podrás visualizar nuestro proyecto, momento en el que apreciarás el moviento de los planetas, los cuales giran en torno al Sol, que en este caso es la **estrella central**
+Al momento de correr el código en tu IDE ```VS CODE ``` favorito, podrás visualizar nuestro proyecto, momento en el que apreciarás el movimiento de los planetas, los cuáles giran en torno al Sol, que en este caso es la **estrella central**
 
 
 ### ***PRE-REQUISITOS*** 📋
