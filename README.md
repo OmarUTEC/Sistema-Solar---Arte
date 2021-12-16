@@ -54,7 +54,7 @@ Al momento de correr el código entu IDE ```VS CODE ``` favorito, podrás visual
    camera.orthographic = True
    EditorCamera()
    ```
-6. Resultado final del proyecto 
+##Resultado final del proyecto 
 
 1.Primera toma
 ![toma 1](https://user-images.githubusercontent.com/91272004/146307837-c1975751-8a7b-44c5-8b90-74cbf3e95981.jpeg)
