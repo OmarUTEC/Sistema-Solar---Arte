@@ -12,6 +12,14 @@ Nuestro proyecto tiene como objetivo mostrarte, desde una perpspectiva 3D el "un
 |  Radio  ( mm ) |  1     | 1.4 |1.8     |    2.2            | 2.6              |   3    |  3.4     | 3.8       |    4     |
 
 
+## CREADORES ✒️
+
+* *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
+* *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
+* *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
+* *Cristopher Villanueva* - Letras/ Satélite -[]()
+
+
 ## COMENZANDO 🚀
 
 Al momento de correr el código entu ID favorito, podrás visualizar nuestro proyecto, momento en el que apreciarás el moviento de los planetas, los cuales giran en torno al Sol, que en este caso es la **estrella central**.
@@ -37,30 +45,15 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
    
 3. Recuerda revisar la siguiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
    - Encontrarás `models` `textures` `color` etc
-4. Para dibujar una entidad:
+4. Para dibujar una entidad
    ``` python
    //Entity(model='circle', position=(0,0,0), color=color.blue, texture='white33', rotation=(45,45,0))
    ```
-
-
-
-## CREADORES ✒️
-
-* *Javier Chavarria* - Trabajo Inicial - [JavierCH](https://github.com/OmarUTEC)
-* *Manyory Cueva* - Documentación - [ManyoryCueva](https://github.com/manyorycuevamendoza)
-* *Yacira Campoverde* - Estrella/ Fondo consola/ elipsis - [Yacira Nicol.C](https://github.com/YaciraUTEC/YaciraUTEC)
-* *Cristopher Villanueva* - Letras/ Satélite -[]()
-
-
-
-
-
-
-
-
-
-
-
+5. Para observar los objetos en distintos ángulos
+   ``` python
+   //camera.orthographic = True
+   EditorCamera()
+   ```
 
 ## EXPRESIONES DE GRATITUD 🎁
 
