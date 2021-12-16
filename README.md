@@ -56,7 +56,7 @@ Al momento de correr el código entu IDE ```VS CODE ``` favorito, podrás visual
    ```
    
    
-##RESULTADO FINAL DEL PROYECTO
+## RESULTADO FINAL DEL PROYECTO
 
 
 1.Primera toma
