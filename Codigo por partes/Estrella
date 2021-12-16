@@ -1,1 +1,356 @@
+from ursina import *
 
+app = Ursina()
+
+# código de la estrella
+
+#estrella
+#*****trian invertid*****
+#SUPERI IZQUIERDA
+#1° nivel superi iz
+Entity(model='cube',color=color.yellow, position=(-6,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-7,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-8,-0.2,0), texture='horizontal_gradient')
+#2° nivel super iz
+Entity(model='cube',color=color.yellow, position=(-7,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-8,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-9,0.8,0), texture='horizontal_gradient')
+#3° nivel super iz
+Entity(model='cube',color=color.yellow, position=(-8,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-9,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-10,1.8,0), texture='horizontal_gradient')
+#4°nivel sup iz
+Entity(model='cube',color=color.yellow, position=(-9,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-10,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-11,2.8,0), texture='start')
+#5°nivel sup iz
+Entity(model='cube',color=color.yellow, position=(-10,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-11,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-12,3.8,0), texture='start')
+#6° nivel sup iz
+Entity(model='cube',color=color.yellow, position=(-11,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-12,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-13,4.8,0), texture='start')
+#7°nivel sup iz
+Entity(model='cube',color=color.yellow, position=(-12,5.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(-13,5.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-14,5.8,0), texture='start')
+#8° nivel sup iz
+Entity(model='cube',color=color.yellow, position=(-13,6.8,0), texture= 'horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(-14,6.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-15,6.8,0), texture='start')
+#9° nicel sup iz
+Entity(model='cube',color=color.yellow, position=(-14,7.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(-15,7.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-16,7.8,0), texture='start')
+#10° nivel sup iz
+Entity(model='cube',color=color.yellow, position=(-15,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-16,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-17,8.8,0), texture='start')
+
+#SUPERI DERECHA
+#1° nivel sup dere
+Entity(model='cube',color=color.yellow, position=(6,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(7,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(8,-0.2,0), texture='horizontal_gradient')
+#2° nivel sup dere
+Entity(model='cube',color=color.yellow, position=(7,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(8,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(9,0.8,0), texture='horizontal_gradient')
+#3° nivel sup der
+Entity(model='cube',color=color.yellow, position=(8,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(9,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(10,1.8,0), texture='horizontal_gradient')
+#4° nivel sup der
+Entity(model='cube',color=color.yellow, position=(9,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(10,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(11,2.8,0), texture='start')
+#5°nivel
+Entity(model='cube',color=color.yellow, position=(10,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(11,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(12,3.8,0), texture='start')
+#6°nivel
+Entity(model='cube',color=color.yellow, position=(11,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(12,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(13,4.8,0), texture='start')
+#7°nivel
+Entity(model='cube',color=color.yellow, position=(12,5.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(13,5.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(14,5.8,0), texture='start')
+#8°nivel
+Entity(model='cube',color=color.yellow, position=(13,6.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(14,6.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(15,6.8,0), texture='start')
+#9°nivel
+Entity(model='cube',color=color.yellow, position=(14,7.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(15,7.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(16,7.8,0), texture='start')
+#10° nivel
+Entity(model='cube',color=color.yellow, position=(15,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(16,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(17,8.8,0), texture='start')
+
+# CIERRE TRIANGUL INV
+Entity(model='cube',color=color.yellow, position=(15,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(14,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(13,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(12,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(11,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(10,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(9,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(8,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(7,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(6,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(5,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(4,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(3,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(2,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(0,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-1,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-2,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-3,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-4,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-5,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-6,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-7,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-8,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-9,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-10,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-11,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-12,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-13,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-14,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-15,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-16,8.8,0), texture='start')
+
+#punta invertida iz
+Entity(model='cube',color=color.yellow, position=(-6,-3,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-5,-3,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-4,-3,0), texture='horizontal_gradient')
+#segund nivel de punta_inv izq
+Entity(model='cube',color=color.yellow, position=(-5,-4,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-4,-4,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-3,-4,0), texture='horizontal_gradient')
+#tercer nivel de punta_inv izq
+Entity(model='cube',color=color.yellow, position=(-4,-5,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-3,-5,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-2,-5,0), texture='horizontal_gradient')
+#cuart nivel de punt inv izq
+Entity(model='cube',color=color.yellow, position=(-3,-6,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-2,-6,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-1,-6,0), texture='horizontal_gradient')
+#punta iz
+
+Entity(model='cube',color=color.yellow, position=(-2,-7,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-1,-7,0), texture='start')
+
+#1° nivel punt inv der
+Entity(model='cube',color=color.yellow, position=(6,-3,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(5,-3,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(4,-3,0), texture='horizontal_gradient')
+#2° nivel punt inv der
+Entity(model='cube',color=color.yellow, position=(5,-4,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(4,-4,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(3,-4,0), texture='horizontal_gradient')
+#3° nivel punt inv der
+Entity(model='cube',color=color.yellow, position=(4,-5,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(3,-5,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(2,-5,0), texture='horizontal_gradient')
+#4° nivel punt inv der
+Entity(model='cube',color=color.yellow, position=(3,-6,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(2,-6,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,-6,0), texture='horizontal_gradient')
+#punta der
+Entity(model='cube',color=color.yellow, position=(2,-7,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,-7,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(0,-7,0), texture='start')
+#punt der-iz
+Entity(model='cube',color=color.yellow, position=(-1,-8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(0,-8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,-8,0), texture='start')
+# 2 punt finales
+Entity(model='cube',color=color.yellow, position=(0,-9,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(0,-10,0), texture='horizontal_gradient')
+
+
+#APERTURA DE TRIANGUL NMAL
+
+Entity(model='cube',color=color.yellow, position=(-1,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-2,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-3,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-4,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-5,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-6,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-7,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-8,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-9,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-10,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-11,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-12,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-13,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-14,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-15,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-16,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-17,-1.2,0), texture='start')
+
+
+Entity(model='cube',color=color.yellow, position=(0,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(2,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(3,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(4,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(5,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(6,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(7,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(8,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(9,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(10,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(11,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(12,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(13,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(14,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(15,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(16,-1.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(17,-1.2,0), texture='start')
+
+
+#***Trian Nmal***
+#DERECHA
+#1°nivel
+Entity(model='cube',color=color.yellow, position=(16,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(15,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(14,-0.2,0), texture='horizontal_gradient')
+#2°nivel
+Entity(model='cube',color=color.yellow, position=(15,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(14,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(13,0.8,0), texture='horizontal_gradient')
+#3°nivel
+Entity(model='cube',color=color.yellow, position=(14,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(13,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(12,1.8,0), texture='horizontal_gradient')
+#4°nivel
+Entity(model='cube',color=color.yellow, position=(13,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(12,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(11,2.8,0), texture='start')
+#5°nivel
+Entity(model='cube',color=color.yellow, position=(12,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(11,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(10,3.8,0), texture='start')
+#6°nivel
+Entity(model='cube',color=color.yellow, position=(11,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(10,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(9,4.8,0), texture='start')
+#7°nivel
+Entity(model='cube',color=color.yellow, position=(10,5.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(9,5.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(8,5.8,0), texture='start')
+#8°nivel
+Entity(model='cube',color=color.yellow, position=(9,6.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(8,6.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(7,6.8,0), texture='start')
+#9°nivel
+Entity(model='cube',color=color.yellow, position=(8,7.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(7,7.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(6,7.8,0), texture='start')
+#10°nivel
+Entity(model='cube',color=color.yellow, position=(7,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(6,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(5,8.8,0), texture='horizontal_gradient')
+#11°nivel
+Entity(model='cube',color=color.yellow, position=(6,9.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(5,9.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(4,9.8,0), texture='horizontal_gradient')
+#12°nivel
+Entity(model='cube',color=color.yellow, position=(5,10.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(4,10.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(3,10.8,0), texture='horizontal_gradient')
+#13°nivel
+Entity(model='cube',color=color.yellow, position=(4,11.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(3,11.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(2,11.8,0), texture='horizontal_gradient')
+#14°nivel
+Entity(model='cube',color=color.yellow, position=(3,12.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(2,12.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,12.8,0), texture='horizontal_gradient')
+#15°nivel
+Entity(model='cube',color=color.yellow, position=(2,13.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(1,13.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(0,13.8,0), texture='start')
+#16°nivel
+Entity(model='cube',color=color.yellow, position=(1,14.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(0,14.8,0), texture='start')
+
+
+#IZQUIERDA
+#1°nivel iz
+Entity(model='cube',color=color.yellow, position=(-16,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-15,-0.2,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-14,-0.2,0), texture='horizontal_gradient')
+#2°nivel iz
+Entity(model='cube',color=color.yellow, position=(-15,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-14,0.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-13,0.8,0), texture='horizontal_gradient')
+#3°nivel iz
+Entity(model='cube',color=color.yellow, position=(-14,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-13,1.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-12,1.8,0), texture='horizontal_gradient')
+#4°nivel iz
+Entity(model='cube',color=color.yellow, position=(-13,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-12,2.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-11,2.8,0), texture='start')
+#5° nivel iz
+Entity(model='cube',color=color.yellow, position=(-12,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-11,3.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-10,3.8,0), texture='start')
+#6°nivel iz
+Entity(model='cube',color=color.yellow, position=(-11,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-10,4.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-9,4.8,0), texture='start')
+#7°nivel iz
+Entity(model='cube',color=color.yellow, position=(-10,5.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(-9,5.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-8,5.8,0), texture='start')
+#8°nivel iz
+Entity(model='cube',color=color.yellow, position=(-9,6.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(-8,6.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-7,6.8,0), texture='start')
+#9°nivel 
+Entity(model='cube',color=color.yellow, position=(-8,7.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(-7,7.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-6,7.8,0), texture='start')
+#10°nivel
+Entity(model='cube',color=color.yellow, position=(-7,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-6,8.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-5,8.8,0), texture='start')
+#11° nivel
+Entity(model='cube',color=color.yellow, position=(-6,9.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-5,9.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-4,9.8,0), texture='horizontal_gradient')
+#12° nivel
+Entity(model='cube',color=color.yellow, position=(-5,10.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-4,10.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-3,10.8,0), texture='horizontal_gradient')
+#13° nivel
+Entity(model='cube',color=color.yellow, position=(-4,11.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-3,11.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-2,11.8,0), texture='horizontal_gradient')
+#14° nivel
+Entity(model='cube',color=color.yellow, position=(-3,12.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-2,12.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-1,12.8,0), texture='horizontal_gradient')
+#15° nivel
+Entity(model='cube',color=color.yellow, position=(-2,13.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-1,13.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(0,13.8,0), texture='start')
+#16°nivel
+Entity(model='cube',color=color.yellow, position=(0,14.8,0), texture='start')
+Entity(model='cube',color=color.yellow, position=(-1,14.8,0), texture='start')
+
+#PUNTAS FINALES(2)
+Entity(model='cube',color=color.yellow, position=(0,15.8,0), texture='horizontal_gradient')
+Entity(model='cube',color=color.yellow, position=(0,16.8,0),texture='horizontal_gradient')
+
+
+EditorCamera()
+app.run()
