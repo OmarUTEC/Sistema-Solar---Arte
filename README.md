@@ -32,8 +32,8 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
    
    - Se instala a través de `pip` con el comando: `pip install ursina`
 2. Una vez instalada la librería, podrás empezar a crear tu proyecto, que tendrá el siguiente formato:
-   ```python
-   //from ursina import *
+   ```
+   from ursina import *
 
    app = Ursina()
 
@@ -46,8 +46,8 @@ Al momento de correr el código entu ID favorito, podrás visualizar nuestro pro
 3. Recuerda revisar la siguiente página: [ursina cheat sheet](https://www.ursinaengine.org/cheat_sheet.html#models)
    - Encontrarás `models` `textures` `color` etc
 4. Para dibujar una entidad
-   ``` python
-   //Entity(model='circle', position=(0,0,0), color=color.blue, texture='white33', rotation=(45,45,0))
+   ``` 
+   Entity(model='circle', position=(0,0,0), color=color.blue, texture='white33', rotation=(45,45,0))
    ```
 5. Para observar los objetos en distintos ángulos
    ``` python
